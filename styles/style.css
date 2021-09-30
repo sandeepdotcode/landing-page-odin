@@ -173,3 +173,32 @@ html {
     color: var(--dark-bg-color);
     padding: 0 14% 0 12%;
 }
+
+.cta-div {
+    padding: 100px var(--page-indentation);
+}
+
+.cta-box {
+    background-color: var(--cta-bg-color);
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-main {
+    color: var(--hero-main-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-sec {
+    color: var(--hero-sec-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cta-box .signup-button {
+    border: 3px solid var(--hero-main-color);
+}
